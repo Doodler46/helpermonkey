@@ -1,0 +1,132 @@
+html, body {
+  overflow-x:hidden;
+}
+
+body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Timmana", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 58px;
+  color: #7751a0;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+blockquote {
+  font-size: 18px;
+}
+
+
+
+
+.name {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.benefits {
+  background-color: #89c544;
+}
+
+
+
+
+/* HEADER */
+
+header {
+  color:000000;
+}
+header nav {
+  padding:1em 0;
+}
+header nav ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin: 0;
+}
+header nav ul > li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+header nav ul > li.btn-outline{
+  padding:10px 15px;
+  background-color: #ffffff;
+  border: 2px solid #7751a0;
+  border-radius: 30px;
+}
+header nav ul > li.btn-outline:hover{
+  background-color:#7751a0;
+}
+header nav ul > li > a {
+  font-family: "Timmana", Helvetica, Arial, sans-serif;
+  color: #7751a0;
+  text-decoration: none;
+}
+header nav ul > li.btn-outline:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header .hero {
+   text-align: center;
+   display:block;
+   position: relative;
+ }
+ header .hero h1 {
+   font-size:58px;
+   font-weight: normal;
+   margin:25px 0 0;
+ }
+ header .hero p {
+   font-family: "Timmana", Helvetica, Arial, sans-serif;
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:10px 0 25px;
+ }
+ header .hero img {
+   display: block;
+   margin:0px auto 0;
+ }
+
+
+/* BUTTONS */
+
+.btn {
+  padding:10px 15px;
+  background-color: #7751a0;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+

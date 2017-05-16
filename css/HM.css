@@ -1,34 +1,3 @@
-html, body {
-  overflow-x:hidden;
-}
-
-body {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Timmana", Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  font-size: 58px;
-  color: #7751a0;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-p {
-  font-size: 20px;
-  line-height: 30px;
-}
-
-
-.img-circle {
-    border-radius: 50%;
-}
-
 /* GRID */
 
 .container {
@@ -46,11 +15,76 @@ p {
 .container:after {
   clear: both;
 }
-.one-half, .one-third, .one-fourth {
+.one-half, .one-third, .one-fourth, .three-quarters, .container-face .container-quote{
   width: 96%;
   float: left;
   position: relative;
   min-height: 1px;
   margin: 0 2% 20px;
 }
+.three-quarters-right, .container-face-right .container-quote-right{
+  width: 96%;
+  float: right;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
+
+
+
+/* Media */
+
+@media (min-width: 768px){
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px){
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width: 46%;
+  }
+  .one-third {
+    width: 29.33333%;
+  }
+  .one-fourth {
+    width: 21%;
+  }
+  .three-quarters {
+    width: 81%;
+  }
+  .three-quarters-right {
+    width: 81%;
+  }
+  .container-face {
+    width: 15%;
+  }
+  .container-face-right {
+    width: 15%;
+  }
+  .container-quote {
+    width: 70%;
+  }
+  .container-quote-right {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
