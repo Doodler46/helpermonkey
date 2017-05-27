@@ -36,7 +36,7 @@
   content: " ";
   position: absolute;
   border-style: solid;
-  border-width: 0 8px 8px;
+  border-width: 0px 8px 8px;
   border-color: #FFFFFF transparent;
   display: block;
   width: 0;
@@ -58,55 +58,26 @@
   font-weight:100;
  }
 
+.mysettings.dropit .dropit-submenu {
+  bottom: 100%;
+  top: auto;
+  right: -15px;
+  min-width: 170px;
 
- /* settings nav button */
- .rise {
-    list-style: none;
-    padding: 0;
-    margin: 15px 0 0;
-    float: right;
-    display: inline-block;
 }
-.rise .rise-trigger { position: relative; }
-.rise .rise-submenu {
-    position: absolute;
-    top: 100%;
-    right: 0; /* dropdown left or right */
-    z-index: 1000;
-    display: none;
-    min-width: 100px;
-    list-style: none;
-    padding: 20px;
-    margin: -125px 0 0;
-}
-.rise .rise-open .rise-submenu { 
-    display: block; 
-    background: #ffffff;
-    border-radius: 15px;
-}
-.rise .rise-open .rise-submenu:after {
+.mysettings.dropit .dropit-open .dropit-submenu:after {
   content: " ";
   position: absolute;
   border-style: solid;
-  border-width: 12px 12px 0px;
-  border-color: #FFFFFF transparent;
+  border-width: 8px 8px 0px;
+  border-color: #ffffff transparent;
   display: block;
   width: 0;
   z-index: 1;
-  top: -8px;
-  right: 10px;
-  margin-top: 125px;
- }
- .rise .rise-open .rise-submenu li {
-  display: block;
-  margin-bottom: 20px;
-  text-decoration: none;
- }
- .rise .rise-open .rise-submenu li:last-child {
-  margin-bottom: 0px;
- }
- .rise .rise-open .rise-submenu li a {
-  color:#7751a0;
-  text-decoration: none;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-weight:100;
+  top: 117px;
+  bottom: 0px;
+  right: 25px;
+}
+ .mysettings.dropit .dropit-open .dropit-submenu li {
+  text-align: left;
+}
